@@ -89,7 +89,7 @@ public class A {
                 db.connect(appid,serailno,bo);
                 return "License association successful";
             }else{
-                return "License already assigned";
+                return "No license to associate";
             }
 
         } finally {

@@ -87,7 +87,7 @@ public class Dis {
             DBD dbd = new DBD();
             if (bo.equals("0")){
                 dbd.connect(appid,serailno,bo);
-                return "license is disassociated";
+                return "License is disassociated";
             }else{
                 return "No license to disassociate";
             }
